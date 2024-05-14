@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(102, 2, 145);
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    background-color: rgb(196, 193, 193);
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item input[type="checkbox"],button{
+    text-align: center;
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+
+  label{
+    margin-right: 10px;
+  }
+
+  button{
+    background-color: red;
+    color: azure;
+  }
+
+  .newlist{
+    margin-top: 10px;
+    background-color: blueviolet;
+  }
+
+  .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 300px; 
+}
+
+.overlay .list input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.overlay .list button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+  
